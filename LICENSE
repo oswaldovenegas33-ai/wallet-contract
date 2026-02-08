@@ -1,4 +1,96 @@
-MIT License
+{
+  "event_id": "4c6c5f47cb0c92a2af677f12fc4aff30499e177f909bba46c13e1b457f1db0e6",
+  "timestamp": 1770586508,
+  "actions": [
+    {
+      "type": "TonTransfer",
+      "status": "ok",
+      "TonTransfer": {
+        "sender": {
+          "address": "0:140c8b58aaa2aeaac05c674f2cc10687249e232f07fbbc917e05cdfc213df5aa",
+          "is_scam": false,
+          "is_wallet": true
+        },
+        "recipient": {
+          "address": "0:5e6cb63861b384f09ae4a63300e5f5acc3f6a5e564dded3585a53db88b519e57",
+          "is_scam": false,
+          "is_wallet": true
+        },
+        "amount": 28965100,
+        "comment": "3828844427"
+      },
+      "simple_preview": {
+        "name": "Ton Transfer",
+        "description": "Transferring 0.0289 TON",
+        "value": "0.0289 TON",
+        "accounts": [
+          {
+            "address": "0:140c8b58aaa2aeaac05c674f2cc10687249e232f07fbbc917e05cdfc213df5aa",
+            "is_scam": false,
+            "is_wallet": true
+          },
+          {
+            "address": "0:5e6cb63861b384f09ae4a63300e5f5acc3f6a5e564dded3585a53db88b519e57",
+            "is_scam": false,
+            "is_wallet": true
+          }
+        ]
+      },
+      "base_transactions": [
+        "5d648ba85149d54a014a70be7ca08ac4ba942a6e862abd80bab82f100d29c82d"
+      ]
+    },
+    {
+      "type": "ContractDeploy",
+      "status": "ok",
+      "ContractDeploy": {
+        "address": "0:140c8b58aaa2aeaac05c674f2cc10687249e232f07fbbc917e05cdfc213df5aa",
+        "interfaces": [
+          "wallet_v4r2"
+        ]
+      },
+      "simple_preview": {
+        "name": "Contract Deploy",
+        "description": "Deploying a contract with interfaces wallet_v4r2",
+        "accounts": [
+          {
+            "address": "0:140c8b58aaa2aeaac05c674f2cc10687249e232f07fbbc917e05cdfc213df5aa",
+            "is_scam": false,
+            "is_wallet": true
+          }
+        ]
+      },
+      "base_transactions": [
+        "4c6c5f47cb0c92a2af677f12fc4aff30499e177f909bba46c13e1b457f1db0e6"
+      ]
+    }
+  ],
+  "value_flow": [
+    {
+      "account": {
+        "address": "0:140c8b58aaa2aeaac05c674f2cc10687249e232f07fbbc917e05cdfc213df5aa",
+        "is_scam": false,
+        "is_wallet": true
+      },
+      "ton": -37985887,
+      "fees": 9020787
+    },
+    {
+      "account": {
+        "address": "0:5e6cb63861b384f09ae4a63300e5f5acc3f6a5e564dded3585a53db88b519e57",
+        "is_scam": false,
+        "is_wallet": true
+      },
+      "ton": 28647276,
+      "fees": 317824
+    }
+  ],
+  "is_scam": false,
+  "lt": 66715475000001,
+  "in_progress": false,
+  "progress": 1
+
+}MIT License
 
 Copyright (c) 2025 TON CORE
 
